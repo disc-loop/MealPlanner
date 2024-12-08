@@ -23,6 +23,7 @@ const (
 )
 
 func main() {
+	// TODO: Use this dataset instead: https://eightportions.com/datasets/Recipes/#fn:1
 	spec := readSpec(specPath)
 
 	r := chi.NewRouter()
